@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Fenil Lakhani | Professional Portfolio</title>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Custom Favicon -->
   <style>
     * {
       margin: 0;
@@ -15,9 +14,10 @@
     }
     body {
       font-family: 'Montserrat', sans-serif;
-      background: #0d1117;
+      background: linear-gradient(120deg, #0d1117, #1f2937);
       color: #c9d1d9;
       line-height: 1.6;
+      background-image: url('https://www.transparenttextures.com/patterns/stardust.png');
     }
     header {
       background: linear-gradient(135deg, #0a66c2, #004182);
@@ -39,17 +39,16 @@
       text-decoration: none;
       margin: 0 15px;
       font-weight: bold;
-      transition: color 0.3s, transform 0.2s; /* Added transition */
+      transition: color 0.3s;
     }
     nav a:hover {
       color: #1f6feb;
-      transform: scale(1.1); /* Subtle hover effect */
     }
     section {
       padding: 60px 20px;
       max-width: 1000px;
       margin: auto;
-      background: #161b22;
+      background: rgba(22, 27, 34, 0.95);
       margin-bottom: 30px;
       border-radius: 12px;
       box-shadow: 0 4px 20px rgba(0,0,0,0.4);
@@ -72,18 +71,13 @@
       margin-top: 20px;
       background: #58a6ff;
       color: #fff;
+      border-radius: 8px;
       text-decoration: none;
-      border-radius: 5px;
       font-weight: bold;
-      text-align: center;
-      transition: background-color 0.3s;
+      transition: background 0.3s;
     }
     .btn-download:hover {
       background: #1f6feb;
-    }
-    .achievement-icon {
-      margin-right: 10px;
-      color: #58a6ff;
     }
     @keyframes fadeIn {
       from { opacity: 0; transform: translateY(20px); }
@@ -102,71 +96,24 @@
   </header>
 
   <nav>
-    <a href="#about">About</a>
-    <a href="#experience">Experience</a>
-    <a href="#skills">Skills</a>
-    <a href="#education">Education</a>
-    <a href="#contact">Contact</a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="experience.html">Experience</a>
+    <a href="skills.html">Skills</a>
+    <a href="education.html">Education</a>
+    <a href="contact.html">Contact</a>
   </nav>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I am a highly experienced and adaptable professional with extensive hands-on experience in logistics, shipping/receiving, forklift operation, delivery services, and CNC machinery. My background spans across industries, and I bring over 5+ years of practical expertise in fast-paced environments. As a current Open Work Permit holder in Canada, I’m ready to take on new challenges and contribute value from day one.</p>
-    <a href="Fenil_Lakhani_Resume.pdf" class="btn-download" download>Download Resume</a> <!-- Download Resume Button -->
-  </section>
-
-  <section id="experience">
-    <h2>Experience</h2>
-    <h3>Machine Operator / Shipper & Receiver – Cooley Group (Jan 2025 – Present)</h3>
-    <ul>
-      <li><span class="achievement-icon">📦</span>Expertly operate inspection machines and CNC systems aligned with global quality standards.</li>
-      <li><span class="achievement-icon">📦</span>Manage inventory logistics, shipping, receiving, and forklift operations (counterbalance).</li>
-      <li><span class="achievement-icon">📦</span>Interpret blueprints and coordinate material flow across warehouse operations.</li>
-    </ul>
-    <h3>Delivery Driver – Canada Post (Oct 2023 – Aug 2024)</h3>
-    <ul>
-      <li><span class="achievement-icon">🚚</span>Handled complex delivery routes with 100% on-time performance and client satisfaction.</li>
-      <li><span class="achievement-icon">🚚</span>Optimized logistics and GPS delivery mapping while maintaining precise delivery logs.</li>
-    </ul>
-    <h3>General Labour – Chill Fresh Produce (May 2023 – Sep 2023)</h3>
-    <ul>
-      <li><span class="achievement-icon">🍎</span>Ensured product quality and managed dispatch-ready packaging.</li>
-    </ul>
-    <h3>CNC Operator – OM Enterprise, India (May 2020 – Mar 2023)</h3>
-    <ul>
-      <li><span class="achievement-icon">🔧</span>Programmed, calibrated, and monitored CNC machines for high-volume production.</li>
-    </ul>
-  </section>
-
-  <section id="skills">
-    <h2>Skills & Certifications</h2>
-    <ul>
-      <li>Blueprint Reading & Technical Interpretation</li>
-      <li>Forklift Operation (Counterbalance Certified)</li>
-      <li>Warehouse & Logistics Coordination</li>
-      <li>Shipping, Receiving & Dispatch Management</li>
-      <li>Delivery Routing & Route Optimization</li>
-      <li>Inventory Systems & CNC Machinery</li>
-      <li>Microsoft Office (Excel, Word, Outlook, Teams)</li>
-    </ul>
-  </section>
-
-  <section id="education">
-    <h2>Education</h2>
-    <p><strong>Global Hospitality Management</strong> – Conestoga College, Canada (Dec 2024)</p>
-    <p><strong>Global Business Management</strong> – Conestoga College, Canada (Dec 2023)</p>
-    <p><strong>Bachelor of Commerce (B.Com)</strong> – R.V. Patel College of Commerce, India (Apr 2022)</p>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:onlinefenil@gmail.com">onlinefenil@gmail.com</a></p>
-    <p>Phone: +1 548-333-3291</p>
-    <p>Location: Kitchener, Ontario, Canada</p>
+  <section>
+    <h2>Download Resume</h2>
+    <p>Click the button below to download my ATS-friendly resume in PDF format:</p>
+    <a href="Fenil_Lakhani_Resume.pdf" class="btn-download" download>Download Resume</a>
   </section>
 
   <footer>
     <p>&copy; 2025 Fenil Lakhani. All rights reserved.</p>
   </footer>
+
+  <!-- Add background animation using particles.js or similar later -->
 </body>
 </html>
