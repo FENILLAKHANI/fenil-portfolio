@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Fenil Lakhani | Professional Portfolio</title>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Custom Favicon -->
   <style>
     * {
       margin: 0;
@@ -38,10 +39,11 @@
       text-decoration: none;
       margin: 0 15px;
       font-weight: bold;
-      transition: color 0.3s;
+      transition: color 0.3s, transform 0.2s; /* Added transition */
     }
     nav a:hover {
       color: #1f6feb;
+      transform: scale(1.1); /* Subtle hover effect */
     }
     section {
       padding: 60px 20px;
@@ -63,6 +65,25 @@
       padding: 20px;
       background: #0a66c2;
       color: #fff;
+    }
+    .btn-download {
+      display: inline-block;
+      padding: 10px 20px;
+      margin-top: 20px;
+      background: #58a6ff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      text-align: center;
+      transition: background-color 0.3s;
+    }
+    .btn-download:hover {
+      background: #1f6feb;
+    }
+    .achievement-icon {
+      margin-right: 10px;
+      color: #58a6ff;
     }
     @keyframes fadeIn {
       from { opacity: 0; transform: translateY(20px); }
@@ -91,28 +112,29 @@
   <section id="about">
     <h2>About Me</h2>
     <p>I am a highly experienced and adaptable professional with extensive hands-on experience in logistics, shipping/receiving, forklift operation, delivery services, and CNC machinery. My background spans across industries, and I bring over 5+ years of practical expertise in fast-paced environments. As a current Open Work Permit holder in Canada, I’m ready to take on new challenges and contribute value from day one.</p>
+    <a href="Fenil_Lakhani_Resume.pdf" class="btn-download" download>Download Resume</a> <!-- Download Resume Button -->
   </section>
 
   <section id="experience">
     <h2>Experience</h2>
     <h3>Machine Operator / Shipper & Receiver – Cooley Group (Jan 2025 – Present)</h3>
     <ul>
-      <li>Expertly operate inspection machines and CNC systems aligned with global quality standards.</li>
-      <li>Manage inventory logistics, shipping, receiving, and forklift operations (counterbalance).</li>
-      <li>Interpret blueprints and coordinate material flow across warehouse operations.</li>
+      <li><span class="achievement-icon">📦</span>Expertly operate inspection machines and CNC systems aligned with global quality standards.</li>
+      <li><span class="achievement-icon">📦</span>Manage inventory logistics, shipping, receiving, and forklift operations (counterbalance).</li>
+      <li><span class="achievement-icon">📦</span>Interpret blueprints and coordinate material flow across warehouse operations.</li>
     </ul>
     <h3>Delivery Driver – Canada Post (Oct 2023 – Aug 2024)</h3>
     <ul>
-      <li>Handled complex delivery routes with 100% on-time performance and client satisfaction.</li>
-      <li>Optimized logistics and GPS delivery mapping while maintaining precise delivery logs.</li>
+      <li><span class="achievement-icon">🚚</span>Handled complex delivery routes with 100% on-time performance and client satisfaction.</li>
+      <li><span class="achievement-icon">🚚</span>Optimized logistics and GPS delivery mapping while maintaining precise delivery logs.</li>
     </ul>
     <h3>General Labour – Chill Fresh Produce (May 2023 – Sep 2023)</h3>
     <ul>
-      <li>Ensured product quality and managed dispatch-ready packaging.</li>
+      <li><span class="achievement-icon">🍎</span>Ensured product quality and managed dispatch-ready packaging.</li>
     </ul>
     <h3>CNC Operator – OM Enterprise, India (May 2020 – Mar 2023)</h3>
     <ul>
-      <li>Programmed, calibrated, and monitored CNC machines for high-volume production.</li>
+      <li><span class="achievement-icon">🔧</span>Programmed, calibrated, and monitored CNC machines for high-volume production.</li>
     </ul>
   </section>
 
